@@ -1,5 +1,5 @@
 
-# Group-06 CI/CD
+# Commune
 
 * *Git URL*: <https://git.cs.dal.ca/courses/2023-summer/csci-5308/group06>
 *  *Netlify Front-end (dev)*: <https://commune-dev-csci5308-group06.netlify.app/>
