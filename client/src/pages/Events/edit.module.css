@@ -1,0 +1,27 @@
+.main-div {
+    height: 100vh;
+}
+
+.container-div {
+    width: 100%;
+}
+
+.title {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.formContainer {
+    margin-left: 2%;
+}
+/* 
+.css-1vr2anf {
+    display: block !important;
+    align-items: flex-start !important;
+} */

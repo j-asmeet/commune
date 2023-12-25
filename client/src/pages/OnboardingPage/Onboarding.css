@@ -1,0 +1,19 @@
+.bg-lightblue {
+    background-color: #050A30;
+    color: white;
+}
+
+.save-btn {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: #008080;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .save-btn:hover {
+    background-color: white;
+    color: #008080;
+  }

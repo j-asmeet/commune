@@ -1,0 +1,42 @@
+stages:
+  - build
+  - test
+
+test:
+  stage: test
+  tags:
+    - dalfcs_docker_autoscale
+  image: maven:3.8.3-openjdk-17
+  script: 
+  - cd server
+  - mvn clean install 
+  - mvn test
+  only:
+    refs:
+      - branches
+
+build-server:
+  stage: build
+  tags:
+    - dalfcs_docker_autoscale
+  image: maven:3.8.3-openjdk-17
+  script:
+    - cd server
+    - mvn clean install 
+    - mvn compile
+  only:
+    refs:
+      - branches
+
+build-client:
+  stage: build
+  tags:
+    - dalfcs_docker_autoscale
+  image: node:latest
+  script:
+    - cd client
+    - npm ci
+    - npm run build
+  only:
+    refs:
+      - branches

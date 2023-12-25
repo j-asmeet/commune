@@ -1,0 +1,14 @@
+.main-div {
+    display: flex;
+  justify-content: center;
+}
+
+.container-div{
+    width: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+
+.align-self-start {
+    align-self: flex-start;
+}

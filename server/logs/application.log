@@ -1,0 +1,25 @@
+18:51:55.861 [main] INFO  c.group6.commune.CommuneApplication - Starting CommuneApplication using Java 20 with PID 20416 (C:\Users\bhuns\Desktop\group06\server\target\classes started by bhuns in C:\Users\bhuns\Desktop\group06\server)
+18:51:55.867 [main] DEBUG c.group6.commune.CommuneApplication - Running with Spring Boot v3.1.0, Spring v6.0.9
+18:51:55.869 [main] INFO  c.group6.commune.CommuneApplication - No active profile set, falling back to 1 default profile: "default"
+18:51:56.844 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+18:51:56.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 23 ms. Found 0 JDBC repository interfaces.
+18:51:57.640 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+18:51:57.651 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:51:57.652 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:51:57.652 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.8]
+18:51:57.751 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:51:57.754 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1808 ms
+18:51:58.780 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@26d5a317, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@70b6db83, org.springframework.security.web.context.SecurityContextHolderFilter@3dc68586, org.springframework.security.web.header.HeaderWriterFilter@9fe720a, org.springframework.security.web.authentication.logout.LogoutFilter@5e5ddfbc, org.springframework.security.oauth2.server.resource.web.authentication.BearerTokenAuthenticationFilter@4a6c0f38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@646427f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d9c45ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a090f62, org.springframework.security.web.session.SessionManagementFilter@2cfe272f, org.springframework.security.web.access.ExceptionTranslationFilter@6ffd4c0d, org.springframework.security.web.access.intercept.AuthorizationFilter@4c319d52]
+18:51:58.967 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:51:59.243 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d6b532f
+18:51:59.246 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:51:59.397 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:51:59.424 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+18:51:59.435 [main] INFO  c.group6.commune.CommuneApplication - Started CommuneApplication in 4.071 seconds (process running for 4.836)
+18:52:28.363 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+18:52:28.364 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+18:52:28.365 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+18:52:53.577 [http-nio-8080-exec-4] INFO  c.group6.commune.AppLogger.AppLogger - lele  
+18:52:53.590 [http-nio-8080-exec-4] INFO  c.group6.commune.AppLogger.AppLogger - le lia  
+18:55:24.020 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:55:24.033 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

@@ -1,0 +1,97 @@
+.create-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .create-form-container {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 40vw;
+  }
+  
+  .create-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+    font-size: 1.2rem;
+  }
+  
+  .create-form button {
+    width: 100%;
+    padding: 10px 0;
+    background-color: teal;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .create-form button:hover {
+    background-color: #008080;
+  }
+  
+  .create-form a {
+    color: #007bff;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  .create-form a:hover {
+    text-decoration: underline;
+  }
+  
+  h1,
+  h3 {
+    color: black;
+  }
+  
+  i {
+    color: red;
+    font-size: small;
+  }
+  
+  label,
+  span {
+    color: black;
+    font-size: small;
+  }
+  
+  .create-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .genderSection {
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  
+  .genderOptions {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+  }
+  
+  .text-link {
+    color: blue;
+  }
+  
+  .text-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
